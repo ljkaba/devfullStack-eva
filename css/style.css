@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+html, body, header, #intro {
+    height: 100%;
+}
+#intro {
+    /* background: url("/img/bg2.jpg")no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#nav {
+    background-image: radial-gradient(circle, #5788c1, #3e75bd, #2662b8, #134eb0, #0f38a6);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.50);
+}
+.logo {
+    margin-bottom: 20px;
+}
+/*----Nav-bar bootstrap--*/
+
+#heading-text {
+    font-size: 2.8rem;
+}
+#description-text {
+    font-size: 1.0rem;
+}
